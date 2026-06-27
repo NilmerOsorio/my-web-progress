@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration from for a technology event</title>
+</head>
+<body>
+    <h1>Inscription for the Tech Conference 2026</h1>
+
+    <form action="confirmation.html" method="post">
+        <p>
+            <label for="Name">
+                <u>Name:</u>
+            </label>
+            <input type="text" id="Name">
+        </p>
+
+        <p>
+            <label for="Residence-City">
+                <u>Residence City:</u>
+            </label>
+            <input type="text" id="Residence-City">
+        </p>
+
+        <p>
+            <label for="Proffesional-Profile">
+                <u>Proffesional Profile</u>
+            </label>
+            <textarea id="Proffesional-Profile"></textarea>
+        </p>
+        <br>
+
+        <p>
+            <label>
+                Experience Level
+                <select id="Experience-Level">
+                    <option value="junior">Junior</option>
+                    <option value="mid-level" selected>Mid-Level</option>
+                    <option value="senior">Senior</option>
+                </select>
+            </label>
+        </p>
+        <br>
+
+        <p>
+            <label>
+                Primary Programming Language
+                <select id="Primary-Language">
+                    <option value="html/css">HTML/CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="python" selected>Python</option>
+                    <option value="c++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="assembly">Assembly</option>
+                </select>
+            </label>
+        </p>
+        <br>
+
+        <p>
+            Dietary Requirements (Select all that apply):
+        </p>
+
+        <input type="checkbox" id="none" value="none" checked>
+            <label for="none">None</label>
+        <br>
+
+        <input type="checkbox" id="vegetarian" value="vegetarian">
+            <label for="vegetarian">Vegetarian</label>
+        <br>
+
+        <input type="checkbox" id="vegan" value="vegan">
+            <label for="vegan">Vegan</label>
+        <br>
+
+        <input type="checkbox" id="glutten-free" value="glutten-free">
+            <label for="glutten-free">Glutten Free</label>
+        <br> 
+
+        <p>
+            Complementary T-Shirt Size:
+        </p>
+
+        <input type="radio" name="tshirt" id="small" value="s">
+            <label for="small">Small (S)</label>
+        <br>
+
+        <input type="radio" name="tshirt" id="medium" value="m">
+            <label for="medium">Medium (M)</label>
+        <br>
+
+        <input type="radio" name="tshirt" id="large" value="l">
+            <label for="large">Large (L)</label>
+        <br>
+
+        <input type="radio" name="tshirt" id="extra-large" value="xl">
+            <label for="extra-large">Extra Large (XL)</label>
+        <br>
+
+        <p>
+            Track of interest (Select all that apply):
+        </p>
+
+        <input type="checkbox" id="web-development" value="web-development">
+            <label for="web-development">Web Development</label>
+        <br>     
+
+        <input type="checkbox" id="cybersecurity" value="cybersecurity">
+            <label for="cybersecurity">Cybersecurity</label>
+        <br>
+
+        <input type="checkbox" id="game-development" value="game-development">
+            <label for="game-development">Game Development</label>
+        <br>
+
+        <p>Ticket Type:</p>
+        <input type="radio" name="ticket" id="standard" value="standard">
+            <label for="standard">Standard Pass</label>
+        <br>
+
+        <input type="radio" name="ticket" id="vip" value="vip">
+            <label for="vip">VIP Access</label>
+        <br>
+        <br>
+        
+        <button type="submit">
+            Confirm Registration
+        </button>
+        <br>
+        <br>
+    </form>   
+</body>
+</html>
