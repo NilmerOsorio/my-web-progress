@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <u>
+            <i>
+                <b>
+                    The Root Sequence (Ordered List)
+                </b>
+            </i>
+        </u>
+    </h1>
+
+    <ol start="3" type="I">
+        <li>
+            GRUB Bootloader Execution - The system loads the Gran Unified Bootloader from
+            the EFI system partition, allowing selection of kernel parameters.
+        </li>
+
+        <li>
+            Kernel Initialization - The Linux kernel decompresses into memory, initializes
+            core hardware drivers, and mounts the temporary root filesystem (initramfs).
+        </li>
+
+        <li>
+            Systemd Initialization - The kernel hands off control to PID 1, which begins
+            orchestrating user-space services and target transitions.
+
+            <ul style="list-style-type: square;">
+                <li>
+                    Mounting essential virtual filesystems including /proc, /sys, and
+                    /dev for devide node communication.
+                </li>
+
+                <li>
+                    Executing low-level early boot targets like sysinit.target to prepare
+                    basic system initialization.
+                </li>
+
+                <li>
+                    Activating multi-user.target to bring up the standard non-graphical
+                    multi-user server environment.
+
+                    <ol type="a">
+                        <li>
+                            Allocating the sshd.service daemon to allow secure remote
+                            administrative access.
+                        </li>
+
+                        <li>
+                            Validating NetworkManager.service to establish local network
+                            interfaces and IP allocation.
+                        </li>
+
+                        <li>
+                            Initializing the postgresql.service socket to prepare the database
+                            engine for application connections.
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
