@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: Arial;
+}
+
+p {
+    color: gray;
+}
+
+li {
+    color: green;
+    font-style: italic;
+}
+
+html {
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: square;
+}
