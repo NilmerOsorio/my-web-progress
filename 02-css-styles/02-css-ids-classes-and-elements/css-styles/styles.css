@@ -1,0 +1,63 @@
+* {
+    font-family: 'Courier New';
+}
+
+#title {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+.hobby {
+    color: purple;
+    font-weight: 18px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: none;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+}
