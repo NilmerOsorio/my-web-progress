@@ -1,0 +1,51 @@
+html {
+    background-color: lightblue;
+}
+
+a:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+button:active {
+    transform: scale(1.2);
+    background-color: lightslategray;
+}
+
+input:focus {
+    border-color: lightsalmon;
+    box-shadow: 0px 0px 20px lightsalmon;
+    outline: none;
+}
+
+li:first-child {
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
+li:last-child {
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
+li:nth-child(odd) {
+    font-family: monospace;
+    color: brown;
+}
+
+li:nth-child(even) {
+    font-family: 'Gill Sans MT';
+    color: blue;
+}
+
+button:not(.delete) {
+    font-family: Verdana;
+}
+
+#google:visited {
+    color: blueviolet;
+}
