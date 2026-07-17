@@ -2,6 +2,7 @@
 
 // 1. Print your name to the console if a variable takes on its value.
 
+console.log("--Exercise #1--");
 let myName = "Giovanny";
 
 if (myName === "Giovanny" && myName.toLowerCase() === "giovanny" && myName.toUpperCase() === "GIOVANNY") {
@@ -13,6 +14,7 @@ else {
 
 // 2. Print a message to the console if the username and password match the established ones.
 
+console.log("--Exercise #2--");
 let username = "Axel98024";
 let password = "HelloWorld";
 
@@ -25,6 +27,7 @@ else {
 
 // 3. Checks wheter a number is positive, negative, or zero and prints a message.
 
+console.log("--Exercise #3--");
 let number = 24;
 
 if (number > 0) {
@@ -39,6 +42,7 @@ else {
 
 // 4. Checks whether or not a person is eligible to vote (over 18) and indicate how many years remain until he is.
 
+console.log("--Exercise #4--");
 let age = 18;
 
 if (age >= 18) {
@@ -52,6 +56,7 @@ else {
 
 // 5. Use the ternary operator to assign the value "Adult" o "Under-age" to a variable based on age.
 
+console.log("--Exercise #5--");
 let secondAge = 17;
 
 let categoryAge = secondAge >= 18 ? "Adult" : "Under-age";
@@ -61,6 +66,7 @@ console.log(categoryAge);
 
 // 6. Display the current season based on the value of a "month" variable.
 
+console.log("--Exercise #6--");
 let month = 2;
 
 switch (month) {
@@ -90,6 +96,7 @@ switch (month) {
 
 // 7. Display the number of days in a month depending on the variable from the previous exercise.
 
+console.log("--Exercise #7--");
 if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month ==12) {
     console.log("This month has 31 days.");
 }
@@ -105,6 +112,7 @@ else {
 
 // 8. Use a switch to display a different greeting message depending on the language.
 
+console.log("--Exercise #8--");
 let language = "es";
 
 switch (language) {
@@ -125,11 +133,12 @@ switch (language) {
 }
 
 // 9. Use a switch to do exercise 6 again.
-
-// This exercise was walready done.
+console.log("--Exercise #9--");
+console.log("This exercise was walready done.");
 
 // 10. Use a switch to do exercise 7 again.
 
+console.log("--Exercise #10--");
 switch (month) {
     case 12:
     case 1:
