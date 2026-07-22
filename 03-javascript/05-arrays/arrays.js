@@ -82,6 +82,7 @@ console.log(myArray);
 
 // Slice
 
+console.log("--Slice--");
 myArray = ["Giovanny", "Osorio", "Aiden", 37, true];
 
 console.log(myArray);
