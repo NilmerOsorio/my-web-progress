@@ -48,7 +48,7 @@ for (let value of namesList) {
 
 console.log("--Exercise #5--");
 
-let sentence = "London is the capital of England."
+let sentence = "London is the capital of England.";
 let vowels = 0;
 
 for (let value of sentence.toLowerCase()) {
