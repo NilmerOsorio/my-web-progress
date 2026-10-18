@@ -45,7 +45,7 @@ function cleanKitchen() {
                 resolve("You clean the kitchen 🧹");
             }
             else{
-                resolve("You DIDN'T clean the kitchen");
+                reject("You DIDN'T clean the kitchen");
             }
         }, 2500);
     });
@@ -55,7 +55,7 @@ function takeOutRubbish() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            rubbishTakenOut = false;
+            const rubbishTakenOut = false;
 
             if(rubbishTakenOut){
                  resolve("You take out the rubbish ♻️");
